@@ -60,12 +60,15 @@ No próprio gcp, foi possível criar uma instância com jupyterlab
 Assim, podemos concluir que a ferramenta SAST obtém mais vulnerabilidades e os principais tipos de vulnerabilidade são: 
 ![My Image](src/jupyter-lab-gcp.png)
 
-Cross-site Scripting (XSS)	85
-Debug Mode Enabled	56
-Permissions Policy Header Not Set	31
-Application Error Disclosure	30
-Missing Anti-clickjacking Header	29
+| Vulnerabilidades  | Quantidade   |
+| ------- | -------- |
+Cross-site Scripting (XSS) |	85
+Debug Mode Enabled |	56
+Permissions Policy Header Not Set	| 31
+Application Error Disclosure |	30
+Missing Anti-clickjacking Header |	29
 
-➡️ É possível observar todo o resultado dessa análise através do arquivo `insights-security.ipynb`
+
+### ➡️ É possível observar todo o resultado dessa análise através do arquivo `insights-security.ipynb`
 
 Espero que tenham gostado 👩‍💻
