@@ -23,7 +23,8 @@ Foram desenvolvidas duas cloud functions.
 - A primeira para realizar toda a parte de extração das ferramentas de segurança para armazenar em arquivo json final. Antes disso, todos os arquivos gerados são enviados em formato csv para um bucket temporário. Após isso, são concatenados e é gerado um json com arquivo final desses dados. Para a geraçao desse trigger, pode ser feito através de um request, onde será possível ter esse output:
 ![My Image](src/request.png)
 
-- A segunda function foi usada com um trigger, onde se o arquivo json fosse enviado para o bucket, seria adicionada no Cloud Storage.
+- A segunda function foi usada com um trigger, onde se o arquivo json fosse enviado para o bucket, será adicionada no Cloud Storage.
+![My Image](src/trigger.png)
 
 Imagens:
 
