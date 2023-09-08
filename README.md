@@ -48,14 +48,22 @@ Imagens:
 ## Cloud Storage
 
 Foi possível observar o upload e os dados armezados no banco de dados do GCP. Para isso, utilizei o arquivo json como modelo para as colunas que são usadas no Cloud Storage.
+![My Image](src/gcp_storage.jpg)
+
 ![My Image](src/cloud-storage.png)
 
 ## Análise de dados usando Jupyter-lab
 No próprio gcp, foi possível criar uma instância com jupyterlab
 ![My Image](src/jupyter-lab.png)
 
-Observação sobre a ferramenta SAST obtém mais vulnerabilidades
+Assim, podemos concluir que a ferramenta SAST obtém mais vulnerabilidades e os principais tipos de vulnerabilidade são: 
 ![My Image](src/jupyter-lab-gcp.png)
+
+Cross-site Scripting (XSS)	85
+Debug Mode Enabled	56
+Permissions Policy Header Not Set	31
+Application Error Disclosure	30
+Missing Anti-clickjacking Header	29
 
 ➡️ É possível observar todo o resultado dessa análise através do arquivo `insights-security.ipynb`
 
