@@ -17,7 +17,9 @@ Essas ferramentas foram coletas através dos repositórios do Github, Snyk e Git
 ## Cloud Functions
 
 Foram desenvolvidas duas cloud functions.
-- A primeira para realizar toda a parte de extraçao das ferramentas de segurança para armazenar em arquivo json final. Antes disso, todos os arquivos gerados são enviados em formato csv para um bucket temporário e após isso, são concatenados e é gerado um json com arquivo final desses dados
+- A primeira para realizar toda a parte de extraçao das ferramentas de segurança para armazenar em arquivo json final. Antes disso, todos os arquivos gerados são enviados em formato csv para um bucket temporário e após isso, são concatenados e é gerado um json com arquivo final desses dados. Para a geraçao desse trigger, pode ser feito através de um request, onde será possível ter esse output:
+![My Image](src/request.png)
+
 - A segunda function foi usada com um trigger, onde se o arquivo json fosse enviado para o bucket, seria adicionada no Cloud Storage
 
 Imagens:
