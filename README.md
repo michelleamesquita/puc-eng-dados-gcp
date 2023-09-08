@@ -55,4 +55,6 @@ No próprio gcp, foi possível criar uma instância com jupyterlab
 Observação sobre a ferramenta SAST obtém mais vulnerabilidades
 ![My Image](src/jupyter-lab-gcp.png)
 
+➡️ É possível observar todo o resultado dessa análise através do arquivo `insights-security.ipynb`
+
 Espero que tenham gostado 👩‍💻
