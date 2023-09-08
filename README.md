@@ -30,7 +30,7 @@ Imagens:
 ### Functions
 ![My Image](src/functions_gcp.png)
 
-### Extraçao de dados de segurança
+### Extração de dados de segurança
 ![My Image](src/sec_functions.png)
 
 ### Bucket temporário
@@ -47,7 +47,7 @@ Imagens:
 
 ## Cloud Storage
 
-Foi possível observar o upload e os dados armezados no banco de dados do GCP
+Foi possível observar o upload e os dados armezados no banco de dados do GCP. Para isso, utilizei o arquivo json como modelo para as colunas que são usadas no Cloud Storage.
 ![My Image](src/cloud-storage.png)
 
 ## Análise de dados usando Jupyter-lab
