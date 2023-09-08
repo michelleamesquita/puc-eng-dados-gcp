@@ -4,9 +4,10 @@
 - Cloud Functions
 - Cloud Storage
 - Big Query
+  
 Usei toda a estrutura do Google Cloud Platform (GCP)
 
-![My Image](src/gcp_etl.png)
+![My Image](src/gcp_etl.jpg)
 
 Os dados sao extraídos de algumas ferramentas de segurança, pois o objetivo é entender qual a quantidade e os tipos de vulnerabilidades são encontradas nas ferramentas de segurança. Assim, foram utilizadas as ferramentas:
 - SCA (WhiteSource)
